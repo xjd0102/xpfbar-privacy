@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPF Bar - 技术支持</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1e293b; line-height: 1.8; background: #f8fafc; }
+        .container { max-width: 720px; margin: 0 auto; padding: 40px 24px; }
+        h1 { font-size: 28px; color: #0f172a; margin-bottom: 8px; }
+        .version { color: #64748b; font-size: 14px; margin-bottom: 32px; }
+        h2 { font-size: 20px; color: #1e293b; margin: 32px 0 12px; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0; }
+        p { margin-bottom: 16px; color: #334155; }
+        a { color: #3b82f6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        ul { padding-left: 24px; margin-bottom: 16px; }
+        li { margin-bottom: 8px; color: #334155; }
+        .card { background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; margin: 16px 0; }
+        .card h3 { font-size: 16px; color: #0f172a; margin-bottom: 8px; }
+        footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e2e8f0; color: #94a3b8; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>XPF Bar 技术支持</h1>
+        <p class="version">XPF Bar v1.1 | macOS 14.0+</p>
+
+        <h2>常见问题</h2>
+
+        <div class="card">
+            <h3>为什么菜单栏没有显示图标？</h3>
+            <p>请检查系统设置 → 控制中心，确保允许菜单栏图标显示。如果图标被其他应用挤占，请减少菜单栏项目。</p>
+        </div>
+
+        <div class="card">
+            <h3>电池信息显示不准确？</h3>
+            <p>XPF Bar 通过 macOS 系统 API 读取电池数据。如显示异常，请尝试重启应用或重置 SMC（Intel Mac：关机后按 Shift+Ctrl+Option+电源键 10 秒；Apple Silicon Mac：关机后长按电源键 10 秒）。</p>
+        </div>
+
+        <div class="card">
+            <h3>网络速度显示为 0？</h3>
+            <p>请确认应用已获取网络权限。首次使用时系统会弹出权限请求，请选择"允许"。如未弹出，请在系统设置 → 隐私与安全性 → 本地网络中手动开启。</p>
+        </div>
+
+        <div class="card">
+            <h3>如何自定义显示模块？</h3>
+            <p>点击菜单栏图标展开面板，点击底部齿轮图标即可开关 CPU、内存、网络、磁盘、电池模块。</p>
+        </div>
+
+        <h2>联系方式</h2>
+        <p>如遇到其他问题或建议，欢迎通过以下方式联系：</p>
+        <ul>
+            <li>邮箱：<a href="mailto:xiejiding@gmail.com">xiejiding@gmail.com</a></li>
+            <li>App Store 开发者：Xiejiding</li>
+        </ul>
+
+        <footer>
+            <p>&copy; 2026 Xiejiding. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
